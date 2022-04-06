@@ -150,7 +150,7 @@ main {
 
 .dice {
   position: absolute;
-  left: 50%;
+  left: 45%;
   top: 16.5rem;
   transform: translateX(-50%);
   height: 10rem;
@@ -164,4 +164,25 @@ main {
 .player--winner .name {
   font-weight: 700;
   color: #c7365f;
+}
+
+/* ================================================================== */
+/* MY CODE  */
+
+.hidden {
+  display: none;
+}
+
+.dice_start {
+  transition: all 500ms;
+}
+
+.dice {
+  transform: rotate(0deg);
+  transition: ease 1s;
+}
+
+.dice_move {
+  transform: rotate(180deg);
+  transition: ease 1s;
 }

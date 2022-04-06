@@ -21,8 +21,8 @@
 // document.querySelector(".firstNumber").value = 1;
 // document.querySelector(".secondNumber").value = 20;
 
-// let start = (document.querySelector(".firstNumber").value );
-// let end = (document.querySelector(".secondNumber").value );
+let start = document.querySelector(".firstNumber");
+let end = document.querySelector(".secondNumber");
 let btnCheck = document.querySelector(".btnCheck");
 let display = document.querySelector(".displayEven");
 
@@ -32,15 +32,9 @@ let display = document.querySelector(".displayEven");
 // btnCheck.addEventListener("click", checkForEven);
 
 function checkForEven() {
-  for (
-    let i = document.querySelector(".firstNumber").value;
-    i <= document.querySelector(".secondNumber").value;
-    i++
-  ) {
+  for (let i = start.value; i <= end.value; i++) {
     if (i % 2 === 0) {
-      document.querySelector(
-        ".displayEven"
-      ).textContent = `${i} is an even Number.`;
+      display.textContent += `${i} is an even Number.`;
       console.log(`${i}`);
     }
   }

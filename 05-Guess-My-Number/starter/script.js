@@ -57,6 +57,7 @@ document.querySelector('.check').addEventListener('click', function () {
     // hideGuessNumber();
     document.querySelector('.message').classList.remove('default');
     document.querySelector('.message').classList.add('winner');
+    document.querySelector('.message').classList.add('winner');
     document.querySelector('.message').classList.remove('warning');
     changeMessage('You win!');
 
