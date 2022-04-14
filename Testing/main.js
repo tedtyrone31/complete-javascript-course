@@ -1,27 +1,26 @@
-// "strict mode";
+"strict mode";
 
-var header = document.getElementById("myDIV");
-var lists = header.getElementsByClassName("list");
+$(document).ready(function () {
+  const test = $("#test");
+  const test2 = $("#test2");
+  const list = $(".list");
+  const ul = $("ul");
+  const list3 = $(".list3");
 
-for (var i = 0; i < lists.length; i++) {
-  lists[i].addEventListener("click", function () {
-    var current = document.getElementsByClassName("active");
-    if (current.length > 0) {
-      current[0].className = current[0].className.replace(" active", "");
-    }
-    this.className += " active";
+  console.log(ul);
+  $(".button").click(function () {
+    $("body").toggleClass("black");
+    $("#dark").toggleClass("hidden");
+    $("#light").toggleClass("hidden");
+    $("h1").toggleClass("white");
   });
-}
 
-// var header = document.getElementById("myDIV");
-// var lists = header.getElementsByClassName("list");
-
-// for (var i = 0; i < lists.length; i++) {
-//   lists[i].addEventListener("click", function () {
-//     var current = document.getElementsByClassName("active");
-//     if (current.length > 0) {
-//       current[0].className = current[0].className.replace(" active", "");
-//     }
-//     this.className += " active";
-//   });
-// }
+  $(".list3").click(function () {
+    $(".color").toggleClass("hidden");
+  });
+  $(".btn").click(function () {
+    $(".btn").toggleClass("hidden");
+    $(".btn").toggleClass("hideNav");
+    $(".myNav").toggleClass("open");
+  });
+});

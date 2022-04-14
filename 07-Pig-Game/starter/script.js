@@ -114,7 +114,7 @@ function holdScore() {
     if (scores[activePlayer] >= 100) {
       document
         .querySelector(`.player--${activePlayer}`)
-        .classList.add('player--winner');
+        .classclassList.add('player--winner');
       playing = false;
       diceEl.classList.add('hidden');
       winnerDisplay();
