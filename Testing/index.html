@@ -6,32 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="responsive.css" />
-    <title>Document</title>
 
+    <title>Document</title>
+  </head>
+  <body id="body">
+   
+      <div class="hideMe">
+        <select name="" id="language" placeholder="Select fruit">
+          <option value="">Select</option>
+          <option value="fruit">Fruit</option>
+          <option value="vege">Vegetables</option>
+          <option value="snack">Snacks</option>
+        </select>
+
+        <select name="" id="language2" placeholder=""></select>
+      </div>
+    </div>
+
+    <div style="margin-left: 30px">
+      <input type="" style="margin-left: -20px" id="list_item" />
+      <button id="btnAddList">Add New Brand</button>
+      <button id="btnDel">Delete</button>
+      <button id="btnUnset">Change Color</button>
+      <ul 
+        class="phone"
+        style="list-style-type: circle; margin-top: 20px"
+        id="phoneList"
+      >
+        <li id="vivo">Vivo</li>
+        <li>Nokia</li>
+        <li>Samsung</li>
+      </ul>
+      <div style="text-align: center;">
+        <button id="customize">Customize</button> <br> <br>
+      <h1 id="customDisplay" class="">CUSTOMIZE ME</h1>
+    </div>
     <script src="jquery-3.6.0.js"></script>
     <script src="main.js"></script>
-  </head>
-  <body class="body">
-    <h1 id="test">Hello World!</h1>
-    <h1 id="test2">World!</h1>
-
-    <button id="dark" class="button">Dark Mode</button>
-    <button id="light" class="hidden button">Light Mode</button>
-    <button id="show" class="hidden btn hideNav">Show Nav</button>
-    <button id="hide" class="btn">Hide Nav</button>
-
-    <ul class="myNav">
-      <li class="list list1">list1</li>
-      <li class="list list2">list2</li>
-      <li class="list list3">list3</li>
-      <ul class="color hidden">
-        <li>red</li>
-        <li>blue</li>
-        <li>green</li>
-      </ul>
-
-      <li class="list list4">list4</li>
-      <li class="list list5">list5</li>
-    </ul>
   </body>
 </html>
