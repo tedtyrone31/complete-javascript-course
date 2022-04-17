@@ -1,0 +1,310 @@
+*{
+padding:0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+ 
+.red {
+	background: red;
+}
+
+body {
+    height: auto;
+    background-color: gray;  
+}
+
+.printerpage {
+    height: 44vh;
+}
+
+.navbar {
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+ 
+}
+
+.navbar ul {
+    list-style: none;
+    margin-top: 1%;
+    color:white;
+   
+}  
+.navbar ul li {
+    width: 200px;
+    background-color: gray;
+    border: 1px solid white;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    position: relative;
+    margin-left: 20px;  
+ 
+}
+
+.navbar ul ul{
+    margin-left:-20px;
+    display: none;
+    
+   
+}
+
+
+.navbar ul li  a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li:hover ul {
+    display: block;  
+    background-color: gray;  
+
+}
+
+.sakusei-steps a:hover {
+    background-color: gray;
+}
+
+section {
+    float: left; 
+    width:100%;
+    margin-top: 20px;
+    background-color: white;
+    height: auto;
+    text-align: center;
+}
+
+.osp
+ {
+    padding: 50px;
+    background-color:teal;
+    color:white;
+    outline:2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.osp h1 {
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainpage {
+    height: 33vh;
+}
+
+.mainpage h1, p {
+    margin-top: 200px;
+}
+footer {
+    clear: both;  
+    text-align: right;
+    padding:10px;   
+}
+
+
+.IP {
+      text-align: center;    
+}
+
+.IP table { 
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+    margin-top: 20px;  
+    margin-bottom: 20px; 
+}
+
+table th, td{
+    width: auto;
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+    
+}
+
+table th,tr:hover {
+    background-color: gray;
+ 
+}
+
+
+
+table th {
+    background-color: black;
+    color: white;
+    border:1px solid gray;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    
+   
+}
+
+
+.about {
+    margin-top: 50px;
+}
+.about p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+section .table {
+    background-color: white;
+}
+
+
+
+.navbar li a:hover {
+        background-color: #C8C6C6;
+        display:block;
+}
+
+.fm table {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+.server table {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 80px;
+    border-collapse: collapse;
+}
+
+.ts table {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.adobe table {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+
+
+.emails table {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+.emails td:nth-child(2)
+{
+  color:blue;
+}
+.bg table {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+ 
+}
+
+.specs table {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 45px;
+    border-collapse: collapse;
+   
+}
+.specs table td{
+    font-size: 14px!important;
+}
+
+.skype {
+    height: 49vh;
+}
+
+.skype table {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+    margin-top: 20px;  
+    margin-bottom: 20px;
+}
+.micro {
+    height:auto;
+}
+.micro table {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+    margin-top: 20px;  
+    margin-bottom: 20px;
+}
+.ssd table {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+    margin-top: 20px;  
+    margin-bottom: 20px;
+}
+.top a{
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    background-color: gray;
+    color:white;
+    padding: 10px;
+    text-decoration: none;
+    animation-name: top;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes top {
+    0% {color:white}
+    80% {color:teal;background-color: white;} 
+    100% {color: white}
+}
+
+
+.no_pd_plans {
+    color: red;
+}
+.no_act_dev {
+    color:blue;
+}
+
+.protected_units {
+    color: blue;
+}
+
+strong{
+    color:red;
+}
+
+em {
+    color:blue;
+}
+

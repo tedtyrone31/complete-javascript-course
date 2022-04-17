@@ -48,3 +48,36 @@
 #deleteAll.showButton {
   display: block !important;
 }
+
+.myNav {
+  list-style-type: none;
+}
+
+.myNav li {
+  padding: 10px;
+}
+
+.myNav li:hover {
+  color: blue;
+}
+
+.main_content li {
+  list-style-type: none;
+}
+
+.main_content .ip_address {
+  display: flex !important;
+  color: red !important;
+  font-size: 20px;
+}
+
+.main_content .ip_address li {
+  margin-left: 10px;
+  background-color: orangered;
+  padding: 20px;
+}
+
+.main_content .ip_address li a {
+  color: white;
+  text-decoration: none;
+}

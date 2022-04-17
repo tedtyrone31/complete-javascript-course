@@ -8,6 +8,11 @@ $(document).ready(function () {
   const deleteAll = $("#deleteAll");
   const title_list = $(".title_list");
   const main_title = $(".main_title");
+  const main_content = $(".main_content");
+  const home = $("#home");
+  const about = $("#about");
+  const gallery = $("#gallery");
+  const contact = $("#contact");
 
   const arrLessons = [];
   const arrLessonsInfo = [];
@@ -69,7 +74,14 @@ $(document).ready(function () {
       deleteAll.removeClass("showButton"); //remove button
     });
   });
-
+  $(document).ready(function () {
+    home.on("click", function () {
+      main_content.load("indexOSP.html #navHOME");
+    });
+  });
+  about.on("click", function () {
+    main_content.load("adobe.html #account");
+  });
   // arrLessons[0].on("click", function () {
   //   main_title.text(arrLessons[0]);
   // });
