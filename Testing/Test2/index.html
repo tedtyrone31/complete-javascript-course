@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <title>Document</title>
+  </head>
+  <body id="top">
+    <div class="main_container">
+      <div class="side_content">
+        <h1 style="margin-bottom: 10px">Add Lessons</h1>
+        <input
+          type="text"
+          id="lesson"
+          placeholder="Lesson Title"
+          onfocus="this.placeholder = ''"
+        />
+
+        <input
+          type="text"
+          id="lessonInfo"
+          style="margin-top: 10px"
+          placeholder="Lesson Info"
+          onfocus="this.placeholder = ''"
+        />
+
+        <button class="btn" id="add">Add</button>
+        <!-- <button class="btn delete">Delete</button> -->
+        <br /><br />
+        <div class="parentMain">
+          <ol class="title_list">
+            <li class="unq mab10">
+              Test Title
+              <p>Test Info <button class="delete">Delete</button></p>
+            </li>
+
+            <li class="unqNOT mab10">
+              Test Title2NOT
+              <p>Test Info2NOT <button class="delete">Delete</button></p>
+            </li>
+            <button class="btn" id="deleteAll">Delete All</button>
+          </ol>
+        </div>
+      </div>
+      <div class="main_content">
+        <h1 class="main_title">Title1</h1>
+      </div>
+    </div>
+
+    <script src="jquery-3.6.0.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
